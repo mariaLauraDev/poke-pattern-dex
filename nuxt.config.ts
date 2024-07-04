@@ -3,7 +3,7 @@ import { resolve } from 'path'
 
 export default defineNuxtConfig({
   alias: {
-    '~': resolve(__dirname, '/'),
+    '@': resolve(__dirname, '/'),
   },
   css: ['~/assets/css/main.scss'],
   devtools: { enabled: true },
@@ -16,4 +16,18 @@ export default defineNuxtConfig({
   buildModules: [
     '@pinia/nuxt',
   ],
+  compatibilityDate: '2024-07-03',
 })
+
+
+// import { defineNuxtConfig } from 'nuxt';
+
+// export default defineNuxtConfig({
+//   css: ['~/styles/main.css'],
+//   buildModules: [
+//     '@nuxtjs/tailwindcss',
+//     '@pinia/nuxt',
+//     '@nuxt/typescript-build'
+//   ],
+//   modules: []
+// });

@@ -1,4 +1,29 @@
+// https://nuxt.com/docs/guide/concepts/typescript
+// npm install -D typescript @types/node
 {
-  // https://nuxt.com/docs/guide/concepts/typescript
-  "extends": "./.nuxt/tsconfig.json"
+  "extends": "./.nuxt/tsconfig.json",
+  // "compilerOptions": {
+  //   "target": "esnext",
+  //   "module": "esnext",
+  //   "moduleResolution": "node",
+  //   "strict": true,
+  //   "jsx": "preserve",
+  //   "esModuleInterop": true,
+  //   "skipLibCheck": true,
+  //   "allowSyntheticDefaultImports": true,
+  //   "forceConsistentCasingInFileNames": true,
+  //   "baseUrl": ".",
+  //   "paths": {
+  //     "~/*": ["./*"],
+  //     "@/*": ["./*"]
+  //   },
+  //   "types": [
+  //     "@types/node"
+  //   ]
+  // },
+  // "exclude": [
+  //   "node_modules",
+  //   ".nuxt",
+  //   "dist"
+  // ]
 }

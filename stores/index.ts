@@ -7,6 +7,7 @@ export const usePokemonStore = defineStore('pokemonStore', {
     pokemonList: [] as Pokemon[],
     pokemon: null as Pokemon | null
   }),
+  getters: {},
   actions: {
     async fetchPokemonList() {
       this.pokemonList = await PokemonService.getPokemonList();

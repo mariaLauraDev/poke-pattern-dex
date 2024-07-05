@@ -3,5 +3,81 @@
 @tailwind utilities;
 
 body {
-  background-color: #daaas;
+  margin: 0;
+  padding: 0;
+}
+
+.font-Quicksand {
+  font-family: "Cutive Mono", sans-serif;
+}
+
+.font-CutiveMono {
+  font-family: "Cutive Mono", sans-serif;
+}
+
+.font-DancingScript {
+  font-family: "Dancing Script", sans-serif;
+}
+
+.font-DMSerifDisplay {
+  font-family: "DM Serif Display", sans-serif;
+}
+
+.font-Pacifico {
+  font-family: "Pacifico", sans-serif;
+}
+
+.font-Roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+.font-RubikMonoOne {
+  font-family: "Rubik Mono One", sans-serif;
+}
+
+.font-ZillaSlab {
+  font-family: "Zilla Slab", sans-serif;
+}
+
+.font-Oswald {
+  font-family: "Oswald", sans-serif;
+}
+
+.font-Bangers {
+  font-family: "Bangers", sans-serif;
+}
+
+.font-Jacquard24 {
+  font-family: "Jacquard 24", sans-serif;
+}
+
+.font-BebasNeue {
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.font-Anton {
+  font-family: "Anton", sans-serif;
+}
+
+.font-Lobster {
+  font-family: "Lobster", sans-serif;
+}
+
+.font-Acme {
+  font-family: "Acme", sans-serif;
+}
+
+.font-Khand {
+  font-family: "Khand", sans-serif;
+}
+
+.v-field__input {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  padding-left: 2px !important;
+  padding-right: 2px !important;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
 }

@@ -1,7 +1,16 @@
 <template>
-  <button :class="['px-4 py-2 rounded', classType]" @click="onClick">
-    <slot></slot>
-  </button>
+  <div>
+    <VBtn
+    color="primary"
+    height="40px"
+    rounded="lg"
+    variant="flat"
+    prepend-icon="mdi-plus"
+  >
+    Adicionar
+  </VBtn>
+    <v-btn>Click Me</v-btn>
+  </div>
 </template>
 
 <script lang="ts" setup>
